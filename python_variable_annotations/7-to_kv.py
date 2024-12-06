@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-from typing import Union, Tuple
 """ Module that contains a 'to_kv' function """
+
+
+from typing import Union, Tuple
 
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
