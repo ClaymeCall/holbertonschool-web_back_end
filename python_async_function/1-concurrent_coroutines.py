@@ -8,6 +8,7 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
+    """ Returns a list of delays of multiple wait_random coroutines """
     task_list = [wait_random(max_delay) for i in range(n)]
     results = []
 
