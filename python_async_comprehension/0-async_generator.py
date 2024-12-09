@@ -5,6 +5,7 @@ import random
 import asyncio
 from typing import Generator
 
+
 async def async_generator() -> Generator[float, None, None]:
     """ Yields 10 random numbers after waiting 1 sec for each """
     for i in range(10):
