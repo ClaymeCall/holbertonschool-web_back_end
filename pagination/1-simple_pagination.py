@@ -34,6 +34,7 @@ class Server:
         return self.__dataset
 
     def get_page(self, page: int = 1, page_size: int = 10) -> List[List]:
+        """ Gets the contents corresponding to a certain page in the dataset """
         assert type(page) is int and type(page_size) is int
         assert page > 0 and page_size > 0
 
