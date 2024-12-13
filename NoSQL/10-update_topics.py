@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A module that contains a 'insert_school' function """
+"""A module that contains a 'update_topics' function """
 
 
 def update_topics(mongo_collection, name, topics):
