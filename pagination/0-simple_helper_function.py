@@ -5,7 +5,7 @@ from typing import Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
-    """ Returns the page range base on current and scope size """
+    """ Returns the page range based on current and scope size """
     first_elem_of_page = page_size * (page - 1)
     last_elem_of_page = first_elem_of_page + page_size
 
